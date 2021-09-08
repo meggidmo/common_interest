@@ -1,3 +1,24 @@
+nav {
+  font-family: "Kanit";
+  font-weight: 600;
+  color: white;
+  font-size: 1.8rem;
+  justify-self: center;
+}
+
+ul {
+  display: flex;
+  grid-gap: 60px;
+  margin-top: 10px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+}
+
 body {
   margin: 0;
   background-color: #ed6c34;
@@ -5,34 +26,25 @@ body {
 
 header {
   display: grid;
-  grid-template-rows: 15vh;
-}
-
-nav {
-  font-family: "Kanit";
-  font-weight: 600;
-  color: black;
-  font-size: 3rem;
-  justify-self: center;
-}
-
-main {
+  grid-template-rows: 0vh;
 }
 
 .section_1 {
   display: grid;
-  grid-template-rows: 30vh;
-  grid-template-columns: 10vw 80vw 10vw;
+  grid-template-rows: 100vh;
+  grid-template-columns: 10vw 40vw 40vw 10vw;
+  background-image: url(/img/svg1.png);
+  background-size: 100%;
 }
 
 h2 {
   font-family: "Kanit";
   font-weight: 700;
-  color: black;
+  color: white;
   font-size: 3rem;
   grid-row: 1;
   grid-column: 2;
-  align-self: center;
+  align-self: flex-end;
 }
 
 .wine_category {
@@ -47,7 +59,6 @@ h2 {
 
 img {
   width: 300px;
-  height: auto;
 }
 
 h3 {
