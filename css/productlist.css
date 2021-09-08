@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: #ed6c34;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 15vh;
+}
+
+nav {
+  font-family: "Kanit";
+  font-weight: 600;
+  color: black;
+  font-size: 3rem;
+  justify-self: center;
+}
+
+main {
+}
+
+.section_1 {
+  display: grid;
+  grid-template-rows: 30vh;
+  grid-template-columns: 10vw 80vw 10vw;
+}
+
+h2 {
+  font-family: "Kanit";
+  font-weight: 700;
+  color: black;
+  font-size: 3rem;
+  grid-row: 1;
+  grid-column: 2;
+  align-self: center;
+}
+
+.wine_category {
+  color: #faf200;
+}
+
+.wines_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+h3 {
+  font-family: "Kanit";
+  font-weight: 600;
+  color: black;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Kanit";
+  font-weight: 200;
+  color: black;
+  font-size: 1rem;
+}
+
+.listed_wine {
+  max-width: 300px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 3px;
+}
