@@ -1,5 +1,5 @@
-const urlParams = new URLSearchParams(window.location.search);
-const season = urlParams.get("Color");
+// const urlParams = new URLSearchParams(window.location.search);
+// const Color = urlParams.get("Color");
 
 const url = "https://naturalwinedata-1fc5.restdb.io/rest/naturalwine?";
 
